@@ -2,7 +2,7 @@
     "name": "dsa5",
     "title": "Das Schwarze Auge/The Dark Eye (5th Edition)",
     "description": "The \"Das Schwarze Auge\" system for Foundry VTT. Includes all relevant mechanisms to play in the wonderous world of Aventuria and Das Schwarze Auge/The Dark Eye (english now available).",
-    "version": "2.4.3",
+    "version": "3.0.2",
     "templateVersion": 90,
     "author": "Plushtoast",
     "scripts": [
@@ -21,49 +21,49 @@
             "label": "Talente",
             "system": "dsa5",
             "path": "packs/skills.db",
-            "entity": "Item"
+            "type": "Item"
         },
         {
             "name": "skillsen",
             "label": "Skills",
             "system": "dsa5",
             "path": "packs/skillsen.db",
-            "entity": "Item"
+            "type": "Item"
         },
         {
             "name": "combatskills",
             "label": "Kampftalente",
             "system": "dsa5",
             "path": "packs/combatskills.db",
-            "entity": "Item"
+            "type": "Item"
         },
         {
             "name": "combatskillsen",
             "label": "Combat Techniques",
             "system": "dsa5",
             "path": "packs/combatskillsen.db",
-            "entity": "Item"
+            "type": "Item"
         },
         {
             "name": "money",
             "label": "Geld",
             "system": "dsa5",
             "path": "packs/money.db",
-            "entity": "Item"
+            "type": "Item"
         },
         {
             "name": "speciesen",
             "label": "Species",
             "system": "dsa5",
             "path": "packs/speciesen.db",
-            "entity": "Item"
+            "type": "Item"
         },
         {
             "name": "species",
             "label": "Spezies",
             "system": "dsa5",
             "path": "packs/species.db",
-            "entity": "Item"
+            "type": "Item"
         }
     ],
     "languages": [{
@@ -79,14 +79,13 @@
     ],
     "socket": true,
     "initiative": "@status.initiative.value + @status.initiative.die + @status.initiative.diemodifier",
-    "gridDistance": 10,
+    "gridDistance": 1,
     "gridUnits": "Schritt",
     "primaryTokenAttribute": "status.wounds",
     "secondaryTokenAttribute": "status.astralenergy",
-    "minimumCoreVersion": "0.8.6",
-    "compatibleCoreVersion": "0.8.9",
+    "minimumCoreVersion": "9.236",
+    "compatibleCoreVersion": "9",
     "url": "https://github.com/Plushtoast/dsa5-foundryVTT",
-    "manifest": "https://raw.githubusercontent.com/Plushtoast/dsa5-foundryVTT/foundry08/system.json",
-    "download": "https://github.com/Plushtoast/dsa5-foundryVTT/archive/foundry08.zip"
+    "manifest": "https://raw.githubusercontent.com/Plushtoast/dsa5-foundryVTT/foundry9/system.json",
+    "download": "https://github.com/Plushtoast/dsa5-foundryVTT/archive/foundry9.zip"
 }
-
